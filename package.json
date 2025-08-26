@@ -1,11 +1,11 @@
 {
-	"name": "robino-monorepo",
+	"name": "pori-monorepo",
 	"type": "module",
 	"version": "0.0.0",
 	"private": true,
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/rossrobino/robino.git"
+		"url": "git+https://github.com/eastgold15/pori.git"
 	},
 	"license": "MIT",
 	"packageManager": "npm@11.4.2",
@@ -18,12 +18,14 @@
 		"dev": "turbo dev",
 		"check": "turbo check",
 		"build": "turbo build",
-		"format": "prettier --write .",
+		"format": "biome format --write .",
+		"lint": "biome lint .",
 		"changeset": "changeset",
 		"version": "changeset version",
 		"release": "npm run build && changeset publish"
 	},
 	"devDependencies": {
+		"@biomejs/biome": "^2.2.2",
 		"@changesets/cli": "^2.29.5",
 		"prettier": "^3.6.0",
 		"turbo": "^2.5.4",

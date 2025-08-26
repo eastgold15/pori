@@ -1,6 +1,6 @@
 {
-	"name": "@eastgold15/tsconfig",
-	"description": "tsconfig",
+	"name": "@eastgold15/biome",
+	"description": "biome",
 	"license": "MIT",
 	"repository": {
 		"type": "git",

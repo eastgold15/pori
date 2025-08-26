@@ -1,7 +1,7 @@
-# @robino/tsconfig
+# @eastgold15/tsconfig
 
 ```bash
-npm i -D @robino/tsconfig
+npm i -D @eastgold15/tsconfig
 ```
 
 [Total TS Reference](https://www.totaltypescript.com/tsconfig-cheat-sheet)
@@ -12,11 +12,11 @@ npm i -D @robino/tsconfig
 ## tsc
 
 ```json
-{ "extends": "@robino/tsconfig/tsc.json" }
+{ "extends": "@eastgold15/tsconfig/tsc.json" }
 ```
 
 ## bundler
 
 ```json
-{ "extends": "@robino/tsconfig/bundler.json" }
+{ "extends": "@eastgold15/tsconfig/bundler.json" }
 ```

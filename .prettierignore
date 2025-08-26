@@ -1,9 +1,0 @@
-.DS_Store
-node_modules
-.env
-.env.*
-!.env.example
-bun.lockb
-package-lock.json
-dist
-.turbo
