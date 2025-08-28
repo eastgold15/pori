@@ -1,11 +1,18 @@
 {
 	"name": "@pori15/config",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"private": false,
 	"description": "Configuration files for pori packages",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/eastgold15/pori.git"
+	},
+	"type": "module",
+
+	"exports": {
+		"./all": "./biome/all.json",
+		"./end": "./biome/end.json",
+		"./front": "./biome/front.json"
 	},
 	"author": {
 		"name": "pori",
@@ -21,8 +28,10 @@
 	"bin": {
 		"install-config": "./install-config.js"
 	},
+	"dependencies": {
+		"fs-extra": "^11.0.0"
+	},
 	"devDependencies": {
-		"fs-extra": "^11.0.0",
 		"@types/node": "^24.0.3"
 	},
 	"peerDependencies": {

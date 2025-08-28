@@ -1,7 +1,7 @@
 {
 	"name": "pori-monorepo",
 	"type": "module",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"private": true,
 	"description": "A collection of JavaScript tools",
 	"author": "pori",

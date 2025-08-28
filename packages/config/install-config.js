@@ -1,7 +1,12 @@
 #!/usr/bin/env node
 
-const fs = require('fs-extra');
-const path = require('path');
+import fs from 'fs-extra';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+// 获取 __dirname（在 ES Modules 中需要特殊处理）
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 // 获取命令行参数
 const args = process.argv.slice(2);
