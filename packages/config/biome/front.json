@@ -51,6 +51,11 @@
 					}
 				}
 			}
+		},
+		//  覆盖指定文件使用什么规则。
+		{
+			"includes": ["**"],
+			"json": { "parser": { "allowComments": true } }
 		}
 	]
 }

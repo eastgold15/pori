@@ -1,0 +1,32 @@
+{
+	"name": "@pori15/config",
+	"version": "0.0.0",
+	"private": false,
+	"description": "Configuration files for pori packages",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/eastgold15/pori.git"
+	},
+	"author": {
+		"name": "pori",
+		"url": "https://github.com/eastgold15"
+	},
+	"files": [
+		".vscode/**/*",
+		"biome/**/*",
+		"release/**/*",
+		"tsconfig/**/*",
+		"install-config.js"
+	],
+	"bin": {
+		"install-config": "./install-config.js"
+	},
+	"devDependencies": {
+		"fs-extra": "^11.0.0",
+		"@types/node": "^24.0.3"
+	},
+	"peerDependencies": {
+		"@biomejs/biome": ">=2.2.2",
+		"typescript": ">=5.5.0"
+	}
+}

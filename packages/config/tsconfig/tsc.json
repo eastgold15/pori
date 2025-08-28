@@ -1,31 +1,53 @@
 {
 	"$schema": "https://json.schemastore.org/tsconfig",
 	"compilerOptions": {
+		// 输出目录 configDir就是你项目tsconfig.json文件所在目录
 		"outDir": "${configDir}/dist",
+		// 目标 ECMAScript 版本
 		"target": "ESNext",
+		// 模块系统
 		"module": "NodeNext",
+		// 模块解析策略
 		"moduleResolution": "NodeNext",
+		// 包含的库文件
 		"lib": ["ESNext", "DOM", "DOM.Iterable"],
+		// 生成声明文件
 		"declaration": true,
+		// 生成声明映射文件
 		"declarationMap": true,
 
+		// 允许默认导入
 		"esModuleInterop": true,
+		// 跳过库文件类型检查
 		"skipLibCheck": true,
+		// 允许导入 JSON 模块
 		"resolveJsonModule": true,
+		// 模块检测方式
 		"moduleDetection": "force",
+		// 严格模块语法
 		"verbatimModuleSyntax": true,
 
+		// 严格模式
 		"strict": true,
+		// 不允许未标记的重写
 		"noImplicitOverride": true,
+		// 不允许未使用的局部变量
 		"noUnusedLocals": true,
+		// 不允许未使用的参数
 		"noUnusedParameters": true,
+		// 不允许未检查的索引访问
 		"noUncheckedIndexedAccess": true,
+		// 不允许 switch 语句中的 fallthrough
 		"noFallthroughCasesInSwitch": true,
 
+		// 允许 JavaScript 文件
 		"allowJs": true,
+		// 检查 JavaScript 文件
 		"checkJs": true
 	},
+	// 包含的文件
 	"include": ["${configDir}/src", "${configDir}/**/*.test.*"],
+	// 排除的文件
 	"exclude": [
 		"${configDir}/**/*.test.*",
 		"${configDir}/node_modules",

@@ -35,5 +35,12 @@
 				"organizeImports": "on"
 			}
 		}
-	}
+	},
+	//  覆盖指定文件使用什么规则。
+	"overrides": [
+		{
+			"includes": ["**"],
+			"json": { "parser": { "allowComments": true } }
+		}
+	]
 }
