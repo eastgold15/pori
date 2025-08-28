@@ -1,6 +1,6 @@
 {
 	"name": "@pori15/config",
-	"version": "0.0.1",
+	"version": "0.0.4",
 	"private": false,
 	"description": "Configuration files for pori packages",
 	"repository": {
@@ -8,12 +8,6 @@
 		"url": "git+https://github.com/eastgold15/pori.git"
 	},
 	"type": "module",
-
-	"exports": {
-		"./all": "./biome/all.json",
-		"./end": "./biome/end.json",
-		"./front": "./biome/front.json"
-	},
 	"author": {
 		"name": "pori",
 		"url": "https://github.com/eastgold15"
